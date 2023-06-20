@@ -1,9 +1,9 @@
 const { Client, MessageButton, MessageEmbed, Intents } = require('discord.js');
 
-const token = 'MTExNjE0NDI0MDkzNDc4OTEzMw.GtAO9W.ZQCFguFCQB6ASPQKM6fMSOMq50JcMqDwtq5o8c'; //Token Buraya
-const categoryId = '1105574705861230653'; //Ticket Kanaların Oluşucağı Katagori id
-const allowedRoleId = '1104438082125701120'; //Ticket Ları Görebilicek Rol İd
-const adminRoleId = '1107064783297064980'; //Sunucudaki Admin Rol İd
+const token = ''; //Token Buraya
+const categoryId = ''; //Ticket Kanaların Oluşucağı Katagori id
+const allowedRoleId = ''; //Ticket Ları Görebilicek Rol İd
+const adminRoleId = ''; //Sunucudaki Admin Rol İd
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
@@ -135,9 +135,9 @@ client.on('interactionCreate', async(interaction) => {
 const { joinVoiceChannel } = require('@discordjs/voice');
 client.on('ready', () => {
     joinVoiceChannel({
-        channelId: "1107347629324640390", //Bağlanıcak Kanal İd
-        guildId: "1104139398003560488", //Kanalın Olduğu Sunucu İd    
-        adapterCreator: client.guilds.cache.get("1104139398003560488").voiceAdapterCreator //Kanalın Olduğu Sunucu İd   
+        channelId: "", //Bağlanıcak Kanal İd
+        guildId: "", //Kanalın Olduğu Sunucu İd    
+        adapterCreator: client.guilds.cache.get("").voiceAdapterCreator //Kanalın Olduğu Sunucu İd   
     });
 });
 

@@ -1,6 +1,7 @@
 # discord-basic-ticket-bot
 Discord V13 Basic Ticket Bot Source Code
 
+node.bat ı çalıştırıp tüm modüleri yükliyebilirsiniz
 
 Botan Görüntüler 
 
